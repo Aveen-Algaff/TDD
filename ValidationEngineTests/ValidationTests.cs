@@ -23,7 +23,7 @@ namespace ValidationEngineTests
         }
 
         [Test]
-        public void MailHasADotBeforeAtReturnFalse()
+        public void MailHasADotBeforeAtReturnTrue()
         {
             var sut = new Validator();
             var r = sut.ValidateEmailAddress("test.test@com");
